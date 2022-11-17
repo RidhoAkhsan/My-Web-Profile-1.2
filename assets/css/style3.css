@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+:root {
+  --color-background-white: #ffffff;
+  --color-background-body: #b2cdf6;
+  --color-blue: #2081e2;
+  --color-green: #3ce260;
+  --color-font: #434d56;
+  --color-bg-feed: rgba(128, 113, 113, 0.319);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--color-background-white);
+}
+
+/* ========== NAVBAR ========== */
+.navbar-list {
+  background: #efefef;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.navbar-item {
+  margin: 0 15px;
+  list-style-type: none;
+}
+
+.logo {
+  font-size: 2em;
+  font-weight: bold;
+  margin-right: auto;
+  margin-left: 50px;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.toggle {
+  display: none;
+  list-style-type: none;
+  margin: 0 20px;
+}
+
+.navbar-link {
+  font-weight: bold;
+}
+
+.navbar-link:hover {
+  color: black;
+}
+/* ========== END NAVBAR ========== */
+
+/* ========== IDN IT FEST ========== */
+.collection-itfest {
+  background: var(--color-background-white);
+  padding: 30px 0;
+  text-align: center;
+}
+
+.collection-itfest h2 {
+  color: black;
+  font-size: 2.5em;
+  margin: 0px 0px 0px 20px;
+}
+
+.collection-itfest-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.collection-itfest-card {
+  display: flex;
+  flex-direction: column;
+  margin: 18px;
+  margin-top: 15px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.collection-itfest-card:hover {
+  box-shadow: 0 0 15px #bbb;
+}
+
+.image-box {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+}
+
+.image-box:hover {
+  box-shadow: 0 0 2rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s ease-in-out;
+}
+
+.image-box:hover img {
+  transform: scale(1.5, 1.5);
+}
+
+.collection-itfest-card h3 {
+  font-size: 1.5em;
+  color: var(--color-font);
+  padding: 10px;
+}
+
+.card-button {
+  border-radius: 10px;
+  height: 30px;
+  margin: 10px;
+  background-color: var(--color-blue);
+  color: var(--color-background-white);
+  border: 0;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+/* ========== END IDN IT FEST ========== */
+
+/* ========== PROFILE ========== */
+.collection-profile {
+  background: var(--color-background-white);
+  padding: 30px 0;
+  text-align: center;
+}
+
+.collection-profile h2 {
+  color: black;
+  font-size: 2.5em;
+  margin: 0px 0px 0px 20px;
+}
+
+.collection-profile-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.collection-profile-card {
+  display: flex;
+  flex-direction: column;
+  margin: 18px;
+  margin-top: 15px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.collection-profile-card h3 {
+  font-size: 1.3em;
+  color: var(--color-font);
+  padding: 10px;
+}
+
+.w3-container{
+  text-align: left;
+  font-size: 1.3em;
+  color: var(--color-font);
+  padding: 10px;
+  margin: auto;
+}
+
+.contact {
+  padding: 10px;
+}
+
+.social media {
+  margin: 8px;
+}
+/* ========== END PROFILE ========== */
+
+/* ========== FOOTER ========== */
+.footer {
+  margin: 5rem 0;
+  background: transparent;
+  border: 1px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4rem;
+  justify-content: space-between;
+}
+
+.footer-container p,
+.footer-container a {
+  margin: 0;
+}
+
+.footer-3{
+  text-align: center;
+  margin: auto;
+}
+
+/* ========== END FOOTER ========== */
